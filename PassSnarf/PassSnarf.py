@@ -20,14 +20,14 @@ class SmartFormatter(argparse.HelpFormatter):
 def opening():
     title = """
 
-    d8888b.  .d8b.  .d8888. .d8888. .d8888. d8b   db  .d8b.  d8888b. d88888b 
-    88  `8D d8' `8b 88'  YP 88'  YP 88'  YP 888o  88 d8' `8b 88  `8D 88'     
-    88oodD' 88ooo88 `8bo.   `8bo.   `8bo.   88V8o 88 88ooo88 88oobY' 88ooo   
-    88~~~   88~~~88   `Y8b.   `Y8b.   `Y8b. 88 V8o88 88~~~88 88`8b   88~~~   
-    88      88   88 db   8D db   8D db   8D 88  V888 88   88 88 `88. 88      
-    88      YP   YP `8888Y' `8888Y' `8888Y' VP   V8P YP   YP 88   YD YP    
+.______      ___           _______.     _______.     _______.__   __.      ___      .______      _______ 
+|   _  \    /   \         /       |    /       |    /       |  \ |  |     /   \     |   _  \    |   ____|
+|  |_)  |  /  ^  \       |   (----`   |   (----`   |   (----`|   \|  |    /  ^  \    |  |_)  |   |  |__   
+|   ___/  /  /_\  \       \   \        \   \        \   \    |  . `  |   /  /_\  \   |      /    |   __|  
+|  |     /  _____  \  .----)   |   .----)   |   .----)   |   |  |\   |  /  _____  \  |  |\  \----.|  |     
+| _|    /__/     \__\ |_______/    |_______/    |_______/    |__| \__| /__/     \__\ | _| `._____|__|     
             """
-    creds = "                                                       #Coded by @DrGilfoyle"
+    creds = "                                                       #Made with <3 by @DrGilfoyle"
     
     print(colored(title, 'magenta') )
     print(colored(creds, 'red') )
